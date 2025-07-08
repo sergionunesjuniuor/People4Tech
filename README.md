@@ -23,64 +23,116 @@ Destinado ao registro e login de usuários. Ao executar o projeto é realizado u
       Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbmlzdHJhZG9yQGFkbWluaXN0cmFkb3IuY29tLmJyIiwianRpIjoiNjhiYTE0ZGItZjNhMi00ZTJiLTgzOTMtZGQ4ZjQwODg2MGY5IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiJiZjYwNDZmNy05ZDk5LTRmYzUtYWFiOC0xOGE1YWExMWIyYWEiLCJleHAiOjE3NTE5ODQ2ODMsImlzcyI6Im1ldWFwcC5jb20iLCJhdWQiOiJtZXVhcHAuY29tIn0.J4PAG99vOTfzuf4JR1eoJsF91Xy5nykbCaG3mhEXz9E
 
 3. Cliente
+   
   /api/Cliente/ListarClientes
+   
     => Lista registros de clientes cadastrados
+  
   /api/Cliente/BuscarClientePorId/{idCliente}
+  
     =>Lista registro de cliente filtrado pelo id
+  
   /api/Cliente/CriarCliente
+  
     =>Cria registro de cliente
+  
   /api/Cliente/EditarCliente
+  
     =>Edita registro de cliente
+  
   /api/Cliente/ExcluirCliente/{idCliente}
+  
     =>Exclui registro de cliente 
 
-4. Estoque
-  /api/Pedidos/ListarPedidos
+5. Estoque
+
+   /api/Pedidos/ListarPedidos
+
     => Lista registros de pedidos cadastrados
-  /api/Pedidos/BuscarPedidoPorId/{idPedido}
+
+   /api/Pedidos/BuscarPedidoPorId/{idPedido}
+
     =>Lista registro de pedidos filtrado pelo id
-  /api/Pedidos/CriarPedido
+
+   /api/Pedidos/CriarPedido
+
     =>Cria registro de pedido
-  /api/Pedidos/EditarPedido
+
+   /api/Pedidos/EditarPedido
+
     =>Edita registro de pedido
-  /api/Pedidos/ExcluirPedido/{idPedido}
+
+   /api/Pedidos/ExcluirPedido/{idPedido}
+
     =>Exclui registro de pedido
 
-5. Produto
-  /api/Produto/ListarProdutos
+7. Produto
+
+   /api/Produto/ListarProdutos
+
     => Lista registros de produtos cadastrados
-  /api/Produto/BuscarProdutoPorId/{idProduto}
+
+   /api/Produto/BuscarProdutoPorId/{idProduto}
+
     =>Lista registro de produtos filtrado pelo id
-  /api/Produto/BuscarQuantidadeProdutoPorId/{idProduto}
+
+   /api/Produto/BuscarQuantidadeProdutoPorId/{idProduto}
+
     =>Lista registro de produto filtrado pelo id
-  /api/Produto/CriarProduto
+
+   /api/Produto/CriarProduto
+
     =>Cria registro de produto
-  /api/Produto/EditarProduto
+
+   /api/Produto/EditarProduto
+
     =>Edita registro de produto
-  /api/Produto/ExcluirProduto/{idProduto} 
+
+   /api/Produto/ExcluirProduto/{idProduto} 
+
     =>Exclui registro de produto
 
-  6. User
-    /api/User/update
+  9. User
+
+   /api/User/update
+   
       =>Atualiza dados dos usuários
-    /api/User/all
+
+   /api/User/all
+   
       =>Lista os registros de usuários
-    /api/User/{id}
+
+   /api/User/{id}
+   
       =>Exclui um registro de usuário
-    /api/User/{userId}/roles/add/Administrador
+
+   /api/User/{userId}/roles/add/Administrador
+   
       =>Seta um usuário como administrador, é usado uma role dentro do Identity para definir um usuário como administrador.
-    /api/User/{userId}/roles/add/Vendedor
+
+   /api/User/{userId}/roles/add/Vendedor
+   
       =>Seta um usuário como vendedor, é usado uma role dentro do Identity para definir um usuário como vendedor.
-    /api/User/{userId}/roles/remove/Administrador
+
+   /api/User/{userId}/roles/remove/Administrador
+   
       =>Remove o atributo de administrador de um usuário.
-    /api/User/{userId}/roles/remove/Vendedor
+
+   /api/User/{userId}/roles/remove/Vendedor
+
       =>Remove o atributo de vendedor de um usuário.
+
     /api/User/{userId}/roles
+   
       => Retorna as roles de um usuário
-    /api/User/role/Administrador
+
+   /api/User/role/Administrador
+   
       => Retorna os usuários administradores cadastrados
-    /api/User/role/Vendedor
-      => Retorna os usuários vendedores cadastrados
+
+   /api/User/role/Vendedor
+
+     => Retorna os usuários vendedores cadastrados
 
 
 Fluxo de trabalho
