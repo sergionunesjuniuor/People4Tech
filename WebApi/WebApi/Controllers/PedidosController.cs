@@ -31,7 +31,7 @@ namespace WebApi.Controllers
             var produto = await _pedidoInterface.BuscarPedidoPorId(idPedido);
             return Ok(produto);
         }
-
+                
         [HttpPost("CriarPedido")]
         public async Task<ActionResult<ResponseModel<List<Pedido>>>> CriarUsuario(PedidoCriacaoDto pedidoCriacaoDto)
         {
