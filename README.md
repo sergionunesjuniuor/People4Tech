@@ -6,7 +6,7 @@ Principai tecnologias empregadas:
 4. Microsoft Sql Server
 
 EndPoints disponíveis:
-Auth
+1. Auth
   =>Destinado ao registro e login de usuários. Ao executar o projeto é realizado um Seed para a criação de um usuário administrador (usuário: administrador, senha: Admin123!, email: administrador@administrador.com.br)
   /api/Auth/register
   => Registro de usuários
@@ -16,7 +16,7 @@ Auth
     Exemplo de autenticação: Acessar o botão Authorize no topo do Swagger ou pelo ícone de cadeado em qualquer endpoint, inserir o token na caixa "Available authorizations" no campo Value no formato abaixo:
       Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbmlzdHJhZG9yQGFkbWluaXN0cmFkb3IuY29tLmJyIiwianRpIjoiNjhiYTE0ZGItZjNhMi00ZTJiLTgzOTMtZGQ4ZjQwODg2MGY5IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiJiZjYwNDZmNy05ZDk5LTRmYzUtYWFiOC0xOGE1YWExMWIyYWEiLCJleHAiOjE3NTE5ODQ2ODMsImlzcyI6Im1ldWFwcC5jb20iLCJhdWQiOiJtZXVhcHAuY29tIn0.J4PAG99vOTfzuf4JR1eoJsF91Xy5nykbCaG3mhEXz9E
 
-Cliente
+2. Cliente
   /api/Cliente/ListarClientes
     => Lista registros de clientes cadastrados
   /api/Cliente/BuscarClientePorId/{idCliente}
@@ -28,7 +28,7 @@ Cliente
   /api/Cliente/ExcluirCliente/{idCliente}
     =>Exclui registro de cliente 
 
-Estoque
+3. Estoque
   /api/Pedidos/ListarPedidos
     => Lista registros de pedidos cadastrados
   /api/Pedidos/BuscarPedidoPorId/{idPedido}
@@ -40,7 +40,7 @@ Estoque
   /api/Pedidos/ExcluirPedido/{idPedido}
     =>Exclui registro de pedido
 
-Produto
+4. Produto
   /api/Produto/ListarProdutos
     => Lista registros de produtos cadastrados
   /api/Produto/BuscarProdutoPorId/{idProduto}
@@ -54,7 +54,7 @@ Produto
   /api/Produto/ExcluirProduto/{idProduto} 
     =>Exclui registro de produto
 
-  User
+  5. User
     /api/User/update
       =>Atualiza dados dos usuários
     /api/User/all
