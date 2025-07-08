@@ -22,7 +22,7 @@ Destinado ao registro e login de usuários. Ao executar o projeto é realizado u
     Exemplo de autenticação: Acessar o botão Authorize no topo do Swagger ou pelo ícone de cadeado em qualquer endpoint, inserir o token na caixa "Available authorizations" no campo Value no formato abaixo:
       Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbmlzdHJhZG9yQGFkbWluaXN0cmFkb3IuY29tLmJyIiwianRpIjoiNjhiYTE0ZGItZjNhMi00ZTJiLTgzOTMtZGQ4ZjQwODg2MGY5IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiJiZjYwNDZmNy05ZDk5LTRmYzUtYWFiOC0xOGE1YWExMWIyYWEiLCJleHAiOjE3NTE5ODQ2ODMsImlzcyI6Im1ldWFwcC5jb20iLCJhdWQiOiJtZXVhcHAuY29tIn0.J4PAG99vOTfzuf4JR1eoJsF91Xy5nykbCaG3mhEXz9E
 
-3. Cliente
+2. Cliente
    
   /api/Cliente/ListarClientes
    
@@ -44,7 +44,7 @@ Destinado ao registro e login de usuários. Ao executar o projeto é realizado u
   
     =>Exclui registro de cliente 
 
-5. Estoque
+3. Estoque
 
    /api/Pedidos/ListarPedidos
 
@@ -66,7 +66,7 @@ Destinado ao registro e login de usuários. Ao executar o projeto é realizado u
 
     =>Exclui registro de pedido
 
-7. Produto
+4. Produto
 
    /api/Produto/ListarProdutos
 
@@ -92,7 +92,7 @@ Destinado ao registro e login de usuários. Ao executar o projeto é realizado u
 
     =>Exclui registro de produto
 
-  9. User
+  5. User
 
    /api/User/update
    
