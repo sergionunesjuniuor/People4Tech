@@ -3,144 +3,63 @@
   "WorkspaceRootPath": "C:\\Projetos\\People4Tech\\WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\services\\pedidos\\ipedidointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\services\\pedidos\\ipedidointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\services\\pedidos\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\services\\pedidos\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\services\\estoques\\estoqueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\services\\estoques\\estoqueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\dto\\pedidoedicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\pedidoedicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\controllers\\estoquecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\estoquecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\dto\\produtoedicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\produtoedicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\services\\estoques\\iestoqueinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\services\\estoques\\iestoqueinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\models\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\services\\produtos\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\services\\produtos\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\dto\\pedidocriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\pedidocriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\dto\\estoqueedicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\estoqueedicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\dto\\estoquecriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\estoquecriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\services\\clientes\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\services\\clientes\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\services\\produtos\\iprodutointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\services\\produtos\\iprodutointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\services\\clientes\\iclienteinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\services\\clientes\\iclienteinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\controllers\\estoquecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\estoquecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\dto\\clienteedicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\clienteedicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\data\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\data\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\dto\\clientecriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\clientecriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\domain\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\domain\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\services\\usuarios\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\services\\usuarios\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\migrations\\20250707141339_addidentity.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\migrations\\20250707141339_addidentity.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\services\\usuarios\\iusuariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\services\\usuarios\\iusuariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\domain\\dto\\usuarioedicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\domain\\dto\\usuarioedicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\dto\\produtocriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\produtocriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\dto\\usuarioedicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\usuarioedicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\dto\\usuariocriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\usuariocriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|c:\\projetos\\people4tech\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3BA6A5F8-0DB6-4FFA-B61E-5A344C98706A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projetos\\AuthApi_SQL_RefreshToken_SwaggerJWT\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -150,7 +69,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
@@ -160,448 +79,213 @@
               "RelativeDocumentMoniker": "WebApi\\Controllers\\PedidosController.cs",
               "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Controllers\\PedidosController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\PedidosController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAmwDQAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T18:28:20.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IPedidoInterface.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Services\\Pedidos\\IPedidoInterface.cs",
-              "RelativeDocumentMoniker": "WebApi\\Services\\Pedidos\\IPedidoInterface.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Services\\Pedidos\\IPedidoInterface.cs",
-              "RelativeToolTip": "WebApi\\Services\\Pedidos\\IPedidoInterface.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA0wAoAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T18:15:31.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PedidoService.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Services\\Pedidos\\PedidoService.cs",
-              "RelativeDocumentMoniker": "WebApi\\Services\\Pedidos\\PedidoService.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Services\\Pedidos\\PedidoService.cs",
-              "RelativeToolTip": "WebApi\\Services\\Pedidos\\PedidoService.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAASwIoAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T18:15:06.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EstoqueService.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Services\\Estoques\\EstoqueService.cs",
-              "RelativeDocumentMoniker": "WebApi\\Services\\Estoques\\EstoqueService.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Services\\Estoques\\EstoqueService.cs",
-              "RelativeToolTip": "WebApi\\Services\\Estoques\\EstoqueService.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAqwJcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T16:48:26.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EstoqueController.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Controllers\\EstoqueController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\EstoqueController.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Controllers\\EstoqueController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\EstoqueController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAEwCcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T16:57:06.89Z",
+              "WhenOpened": "2025-07-08T01:20:45.109Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PedidoEdicaoDto.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\DTO\\PedidoEdicaoDto.cs",
-              "RelativeDocumentMoniker": "WebApi\\DTO\\PedidoEdicaoDto.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\DTO\\PedidoEdicaoDto.cs",
-              "RelativeToolTip": "WebApi\\DTO\\PedidoEdicaoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T18:18:18.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProdutoController.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Controllers\\ProdutoController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\ProdutoController.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Controllers\\ProdutoController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\ProdutoController.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAkwDQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T12:07:05.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "WebApi\\Models\\Produto.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Models\\Produto.cs",
-              "RelativeToolTip": "WebApi\\Models\\Produto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwA0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T17:22:35.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProdutoEdicaoDto.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\DTO\\ProdutoEdicaoDto.cs",
-              "RelativeDocumentMoniker": "WebApi\\DTO\\ProdutoEdicaoDto.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\DTO\\ProdutoEdicaoDto.cs",
-              "RelativeToolTip": "WebApi\\DTO\\ProdutoEdicaoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T12:17:22.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IEstoqueInterface.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Services\\Estoques\\IEstoqueInterface.cs",
-              "RelativeDocumentMoniker": "WebApi\\Services\\Estoques\\IEstoqueInterface.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Services\\Estoques\\IEstoqueInterface.cs",
-              "RelativeToolTip": "WebApi\\Services\\Estoques\\IEstoqueInterface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T16:48:44.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "WebApi\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Models\\Cliente.cs",
-              "RelativeToolTip": "WebApi\\Models\\Cliente.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAswAwAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T16:33:07.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Estoque.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Models\\Estoque.cs",
-              "RelativeDocumentMoniker": "WebApi\\Models\\Estoque.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Models\\Estoque.cs",
-              "RelativeToolTip": "WebApi\\Models\\Estoque.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T17:25:53.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Models\\Pedido.cs",
-              "RelativeDocumentMoniker": "WebApi\\Models\\Pedido.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Models\\Pedido.cs",
-              "RelativeToolTip": "WebApi\\Models\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T16:31:45.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProdutoService.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Services\\Produtos\\ProdutoService.cs",
-              "RelativeDocumentMoniker": "WebApi\\Services\\Produtos\\ProdutoService.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Services\\Produtos\\ProdutoService.cs",
-              "RelativeToolTip": "WebApi\\Services\\Produtos\\ProdutoService.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAmwJcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T12:09:44.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PedidoCriacaoDto.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\DTO\\PedidoCriacaoDto.cs",
-              "RelativeDocumentMoniker": "WebApi\\DTO\\PedidoCriacaoDto.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\DTO\\PedidoCriacaoDto.cs",
-              "RelativeToolTip": "WebApi\\DTO\\PedidoCriacaoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T18:17:53.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "WebApi\\Program.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Program.cs",
-              "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T15:45:35.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EstoqueEdicaoDto.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\DTO\\EstoqueEdicaoDto.cs",
-              "RelativeDocumentMoniker": "WebApi\\DTO\\EstoqueEdicaoDto.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\DTO\\EstoqueEdicaoDto.cs",
-              "RelativeToolTip": "WebApi\\DTO\\EstoqueEdicaoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T16:51:52.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAswEEAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T17:28:12.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ResponseModel.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Models\\ResponseModel.cs",
-              "RelativeDocumentMoniker": "WebApi\\Models\\ResponseModel.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Models\\ResponseModel.cs",
-              "RelativeToolTip": "WebApi\\Models\\ResponseModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T17:22:34.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "EstoqueCriacaoDto.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\DTO\\EstoqueCriacaoDto.cs",
-              "RelativeDocumentMoniker": "WebApi\\DTO\\EstoqueCriacaoDto.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\DTO\\EstoqueCriacaoDto.cs",
-              "RelativeToolTip": "WebApi\\DTO\\EstoqueCriacaoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T16:51:37.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ClienteService.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Services\\Clientes\\ClienteService.cs",
-              "RelativeDocumentMoniker": "WebApi\\Services\\Clientes\\ClienteService.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Services\\Clientes\\ClienteService.cs",
-              "RelativeToolTip": "WebApi\\Services\\Clientes\\ClienteService.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAmwCYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T13:04:41.487Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IProdutoInterface.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Services\\Produtos\\IProdutoInterface.cs",
-              "RelativeDocumentMoniker": "WebApi\\Services\\Produtos\\IProdutoInterface.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Services\\Produtos\\IProdutoInterface.cs",
-              "RelativeToolTip": "WebApi\\Services\\Produtos\\IProdutoInterface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T12:10:14.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IClienteInterface.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Services\\Clientes\\IClienteInterface.cs",
-              "RelativeDocumentMoniker": "WebApi\\Services\\Clientes\\IClienteInterface.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Services\\Clientes\\IClienteInterface.cs",
-              "RelativeToolTip": "WebApi\\Services\\Clientes\\IClienteInterface.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAcwAsAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T13:05:04.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
               "Title": "ClienteController.cs",
               "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\ClienteController.cs",
               "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Controllers\\ClienteController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\ClienteController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAqwDMAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T13:17:46.292Z",
+              "WhenOpened": "2025-07-08T01:20:30.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "WebApi\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Models\\Usuario.cs",
-              "RelativeToolTip": "WebApi\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "20250707141339_addIdentity.Designer.cs",
+              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Migrations\\20250707141339_addIdentity.Designer.cs",
+              "RelativeDocumentMoniker": "WebApi\\Migrations\\20250707141339_addIdentity.Designer.cs",
+              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Migrations\\20250707141339_addIdentity.Designer.cs",
+              "RelativeToolTip": "WebApi\\Migrations\\20250707141339_addIdentity.Designer.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAE8AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T17:16:25.113Z",
+              "WhenOpened": "2025-07-08T01:02:17.461Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ClienteEdicaoDto.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\DTO\\ClienteEdicaoDto.cs",
-              "RelativeDocumentMoniker": "WebApi\\DTO\\ClienteEdicaoDto.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\DTO\\ClienteEdicaoDto.cs",
-              "RelativeToolTip": "WebApi\\DTO\\ClienteEdicaoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "IdentitySeeder.cs",
+              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Data\\IdentitySeeder.cs",
+              "RelativeDocumentMoniker": "WebApi\\Data\\IdentitySeeder.cs",
+              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Data\\IdentitySeeder.cs",
+              "RelativeToolTip": "WebApi\\Data\\IdentitySeeder.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBgAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T13:09:31.308Z",
+              "WhenOpened": "2025-07-08T00:52:32.404Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ClienteCriacaoDto.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\DTO\\ClienteCriacaoDto.cs",
-              "RelativeDocumentMoniker": "WebApi\\DTO\\ClienteCriacaoDto.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\DTO\\ClienteCriacaoDto.cs",
-              "RelativeToolTip": "WebApi\\DTO\\ClienteCriacaoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T13:08:40.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "IUsuarioInterface.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Services\\Usuarios\\IUsuarioInterface.cs",
-              "RelativeDocumentMoniker": "WebApi\\Services\\Usuarios\\IUsuarioInterface.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Services\\Usuarios\\IUsuarioInterface.cs",
-              "RelativeToolTip": "WebApi\\Services\\Usuarios\\IUsuarioInterface.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAswA4AAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T17:17:59.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Services\\Usuarios\\UsuarioService.cs",
-              "RelativeDocumentMoniker": "WebApi\\Services\\Usuarios\\UsuarioService.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Services\\Usuarios\\UsuarioService.cs",
-              "RelativeToolTip": "WebApi\\Services\\Usuarios\\UsuarioService.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAAALsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T17:17:04.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ProdutoCriacaoDto.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\DTO\\ProdutoCriacaoDto.cs",
-              "RelativeDocumentMoniker": "WebApi\\DTO\\ProdutoCriacaoDto.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\DTO\\ProdutoCriacaoDto.cs",
-              "RelativeToolTip": "WebApi\\DTO\\ProdutoCriacaoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T12:13:23.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 10,
               "Title": "UsuarioEdicaoDto.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\DTO\\UsuarioEdicaoDto.cs",
-              "RelativeDocumentMoniker": "WebApi\\DTO\\UsuarioEdicaoDto.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\DTO\\UsuarioEdicaoDto.cs",
-              "RelativeToolTip": "WebApi\\DTO\\UsuarioEdicaoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Domain\\DTO\\UsuarioEdicaoDto.cs",
+              "RelativeDocumentMoniker": "WebApi\\Domain\\DTO\\UsuarioEdicaoDto.cs",
+              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Domain\\DTO\\UsuarioEdicaoDto.cs",
+              "RelativeToolTip": "WebApi\\Domain\\DTO\\UsuarioEdicaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T20:17:12.504Z",
+              "WhenOpened": "2025-07-08T00:15:42.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "UsuarioCriacaoDto.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\DTO\\UsuarioCriacaoDto.cs",
-              "RelativeDocumentMoniker": "WebApi\\DTO\\UsuarioCriacaoDto.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\DTO\\UsuarioCriacaoDto.cs",
-              "RelativeToolTip": "WebApi\\DTO\\UsuarioCriacaoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\ProdutoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T19:41:30.771Z"
+              "WhenOpened": "2025-07-07T16:19:32.423Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "WebApi.csproj",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\WebApi.csproj",
-              "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\WebApi.csproj",
-              "RelativeToolTip": "WebApi\\WebApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-03T17:02:17.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "WebApi\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "WebApi\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "EstoqueController.cs",
+              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Controllers\\EstoqueController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\EstoqueController.cs",
+              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Controllers\\EstoqueController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\EstoqueController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T17:03:16.271Z"
+              "WhenOpened": "2025-07-07T16:19:32.437Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Controllers\\UserController.cs*",
+              "RelativeToolTip": "WebApi\\Controllers\\UserController.cs*",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwFoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T00:16:36.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T23:24:28.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Domain\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "WebApi\\Domain\\ApplicationUser.cs",
+              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Domain\\ApplicationUser.cs",
+              "RelativeToolTip": "WebApi\\Domain\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T23:43:20.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T23:39:59.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "WebApi\\appsettings.json",
               "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\appsettings.json",
               "RelativeToolTip": "WebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-03T17:41:40.342Z"
+              "WhenOpened": "2025-07-07T23:37:48.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "WebApi\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "WebApi\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T23:28:36.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Projetos\\People4Tech\\WebApi\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAEwJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T16:17:28.283Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "dcd53b0b-cdaa-4e55-8325-5d3899a929e3",
+        "Display": 0,
+        "X": -92,
+        "Y": 83,
+        "Width": 1594,
+        "Height": 767,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projetos\\AuthApi_SQL_RefreshToken_SwaggerJWT\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\AuthApi_SQL_RefreshToken_SwaggerJWT\\Program.cs",
+              "ToolTip": "C:\\Projetos\\AuthApi_SQL_RefreshToken_SwaggerJWT\\Program.cs",
+              "RelativeToolTip": "..\\..\\AuthApi_SQL_RefreshToken_SwaggerJWT\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T23:19:56.617Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,13 +1,14 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using WebApi.DTO;
-using WebApi.Models;
+using WebApi.Domain;
+using WebApi.Domain.DTO;
 using WebApi.Services.Usuarios;
 
 namespace WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(AuthenticationSchemes = "Bearer")]
     public class UsuarioController : ControllerBase
     {
 
@@ -17,7 +18,7 @@ namespace WebApi.Controllers
         { 
             _usuarioInterface = usuarioInterface;
         }
-
+        
         [HttpGet("ListarUsuarios")]
         public async Task<ActionResult<ResponseModel<List<Usuario>>>> ListarUsusarios()
         {
@@ -46,12 +47,12 @@ namespace WebApi.Controllers
             return Ok(usuario);
         }
 
-        [HttpPost("CriarUsuario")]
-        public async Task<ActionResult<ResponseModel<List<Usuario>>>> CriarUsuario(UsuarioCriacaoDto usuarioCriacaoDto)
-        {
-            var usuario = await _usuarioInterface.CriarUsuario(usuarioCriacaoDto);
-            return Ok(usuario);
-        }
+        //[HttpPost("CriarUsuario")]
+        //public async Task<ActionResult<ResponseModel<List<Usuario>>>> CriarUsuario(UsuarioCriacaoDto usuarioCriacaoDto)
+        //{
+        //    var usuario = this.UsuarioApplication.CriarUsuario(usuarioCriacaoDto);
+        //    return Ok(usuario);
+        //}
 
         [HttpPut("EditarUsuario")]
         public async Task<ActionResult<ResponseModel<List<Usuario>>>> EditarUsuario(UsuarioEdicaoDto usuarioEdicaoDto)

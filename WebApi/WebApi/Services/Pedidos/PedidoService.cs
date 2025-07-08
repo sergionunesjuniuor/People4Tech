@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using WebApi.Data;
-using WebApi.DTO;
-using WebApi.Models;
+using WebApi.Domain;
+using WebApi.Domain.DTO;
 
 namespace WebApi.Services.Pedidos
 {
@@ -52,10 +52,19 @@ namespace WebApi.Services.Pedidos
                     return resposta;
                 }
 
-                var produto = await _context.Produtos.FirstOrDefaultAsync(x => x.Id == pedidoCriacaoDto.ProdutoId);
+                var produto = await _context.Produtos.Include(x => x.Estoques).Include(x => x.Pedidos).FirstOrDefaultAsync(x => x.Id == pedidoCriacaoDto.ProdutoId);
                 if (produto == null)
                 {
                     resposta.Mensagem = "Nenhum registro de produto localizado para o id informado!";
+                    return resposta;
+                }
+
+                var quantidadeEstoques = produto.Estoques.Sum(x => x.Quantidade);
+                var quantidadePedidos = produto.Pedidos.Sum(x => x.Quantidade);
+
+                if(pedidoCriacaoDto.Quantidade > (quantidadeEstoques - quantidadePedidos))
+                {
+                    resposta.Mensagem = "Não há estoque suficiente para atender o pedido.";
                     return resposta;
                 }
 

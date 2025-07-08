@@ -1,11 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using WebApi.DTO;
-using WebApi.Models;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using WebApi.Domain;
+using WebApi.Domain.DTO;
 using WebApi.Services.Produtos;
-using WebApi.Services.Usuarios;
 
 namespace WebApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ProdutoController : ControllerBase
@@ -28,6 +29,13 @@ namespace WebApi.Controllers
         public async Task<ActionResult<ResponseModel<Produto>>> BuscarProdutoPorId(int idProduto)
         {
             var produto = await _produtoInterface.BuscarProdutoPorId(idProduto);
+            return Ok(produto);
+        }
+
+        [HttpGet("BuscarQuantidadeProdutoPorId/{idProduto}")]
+        public async Task<ActionResult<ResponseModel<Produto>>> BuscarQuantidadeProdutoPorId(int idProduto)
+        {
+            var produto = await _produtoInterface.BuscarQuantidadeProdutoPorId(idProduto);
             return Ok(produto);
         }
 

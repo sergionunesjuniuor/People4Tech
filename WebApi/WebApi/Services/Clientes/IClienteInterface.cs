@@ -1,5 +1,5 @@
-﻿using WebApi.DTO;
-using WebApi.Models;
+﻿using WebApi.Domain;
+using WebApi.Domain.DTO;
 
 namespace WebApi.Services.Clientes
 {

@@ -1,12 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using WebApi.DTO;
-using WebApi.Models;
+using WebApi.Domain;
+using WebApi.Domain.DTO;
 using WebApi.Services.Clientes;
-using WebApi.Services.Produtos;
 
 namespace WebApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ClienteController : ControllerBase

@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using WebApi.Data;
-using WebApi.DTO;
-using WebApi.Models;
+using WebApi.Domain;
+using WebApi.Domain.DTO;
 
 namespace WebApi.Services.Produtos
 {
@@ -27,6 +27,45 @@ namespace WebApi.Services.Produtos
                 }
 
                 resposta.Dados = produto;
+                resposta.Mensagem = "Registro localizado!";
+
+                return resposta;
+            }
+            catch (Exception ex)
+            {
+                resposta.Mensagem = ex.Message;
+                resposta.Status = false;
+                return resposta;
+            }
+        }
+
+        public async Task<ProdutoResponseModel<ProdutoExibicaoDto>> BuscarQuantidadeProdutoPorId(int idProduto)
+        {
+            ProdutoResponseModel<ProdutoExibicaoDto> resposta = new ProdutoResponseModel<ProdutoExibicaoDto>();
+
+            try
+            {
+                var produto = await _context.Produtos.Include(x => x.Estoques).Include(x=> x.Pedidos).FirstOrDefaultAsync(x => x.Id == idProduto);
+                if (produto == null)
+                {
+                    resposta.Mensagem = "Nenhum registro localizado para o id informado!";
+                    return resposta;
+                }
+
+                var quantidadeEstoques = produto.Estoques.Sum(x => x.Quantidade);
+                var quantidadePedidos = produto.Pedidos.Sum(x => x.Quantidade);
+
+                var produtoExibe = new ProdutoExibicaoDto() 
+                { 
+                    Id = produto.Id,
+                    Nome = produto.Nome,
+                    Descricao = produto.Descricao,
+                    QuantidadeEstoques = quantidadeEstoques,
+                    QuantidadePedidos = quantidadePedidos,
+                    QuantidadeDisponivel = (quantidadeEstoques - quantidadePedidos)
+                };
+
+                resposta.Dados = produtoExibe;
                 resposta.Mensagem = "Registro localizado!";
 
                 return resposta;

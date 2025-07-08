@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "WebApi.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "WebApi.Domain.DTO.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "WebApi.Domain.DTO.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApi.Controllers.ClienteController",
     "Method": "BuscarProdutoPorId",
     "RelativePath": "api/Cliente/BuscarClientePorId/{idCliente}",
@@ -15,7 +47,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[WebApi.Models.Cliente, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[WebApi.Domain.Cliente, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -35,13 +67,13 @@
     "Parameters": [
       {
         "Name": "clienteCriacaoDto",
-        "Type": "WebApi.DTO.ClienteCriacaoDto",
+        "Type": "WebApi.Domain.DTO.ClienteCriacaoDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Cliente, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Cliente, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -61,13 +93,13 @@
     "Parameters": [
       {
         "Name": "clienteEdicaoDto",
-        "Type": "WebApi.DTO.ClienteEdicaoDto",
+        "Type": "WebApi.Domain.DTO.ClienteEdicaoDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Produto, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Produto, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -93,7 +125,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Cliente, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Cliente, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -113,7 +145,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Cliente, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Cliente, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -139,7 +171,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[WebApi.Models.Estoque, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[WebApi.Domain.Estoque, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -159,13 +191,13 @@
     "Parameters": [
       {
         "Name": "estoqueCriacaoDto",
-        "Type": "WebApi.DTO.EstoqueCriacaoDto",
+        "Type": "WebApi.Domain.DTO.EstoqueCriacaoDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Estoque, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Estoque, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -185,13 +217,13 @@
     "Parameters": [
       {
         "Name": "estoqueEdicaoDto",
-        "Type": "WebApi.DTO.EstoqueEdicaoDto",
+        "Type": "WebApi.Domain.DTO.EstoqueEdicaoDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Estoque, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Estoque, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -217,7 +249,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Estoque, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Estoque, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -237,7 +269,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Estoque, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Estoque, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -263,7 +295,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[WebApi.Models.Pedido, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[WebApi.Domain.Pedido, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -283,13 +315,13 @@
     "Parameters": [
       {
         "Name": "pedidoCriacaoDto",
-        "Type": "WebApi.DTO.PedidoCriacaoDto",
+        "Type": "WebApi.Domain.DTO.PedidoCriacaoDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Pedido, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Pedido, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -309,13 +341,13 @@
     "Parameters": [
       {
         "Name": "pedidoEdicaoDto",
-        "Type": "WebApi.DTO.PedidoEdicaoDto",
+        "Type": "WebApi.Domain.DTO.PedidoEdicaoDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Pedido, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Pedido, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -341,7 +373,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Pedido, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Pedido, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -361,7 +393,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Produto, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Produto, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -387,7 +419,33 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[WebApi.Models.Produto, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[WebApi.Domain.Produto, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ProdutoController",
+    "Method": "BuscarQuantidadeProdutoPorId",
+    "RelativePath": "api/Produto/BuscarQuantidadeProdutoPorId/{idProduto}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProduto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApi.Domain.ResponseModel\u00601[[WebApi.Domain.Produto, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -407,13 +465,13 @@
     "Parameters": [
       {
         "Name": "produtoCriacaoDto",
-        "Type": "WebApi.DTO.ProdutoCriacaoDto",
+        "Type": "WebApi.Domain.DTO.ProdutoCriacaoDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Produto, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Produto, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -433,13 +491,13 @@
     "Parameters": [
       {
         "Name": "produtoEdicaoDto",
-        "Type": "WebApi.DTO.ProdutoEdicaoDto",
+        "Type": "WebApi.Domain.DTO.ProdutoEdicaoDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Produto, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Produto, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -465,7 +523,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Produto, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Produto, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -485,7 +543,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Produto, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Produto, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -494,6 +552,148 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "WebApi.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/User/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.UserController",
+    "Method": "GetUserRoles",
+    "RelativePath": "api/User/{userId}/roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.UserController",
+    "Method": "AddUserToRoleAdmin",
+    "RelativePath": "api/User/{userId}/roles/add/Administrador",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.UserController",
+    "Method": "AddUserToRole",
+    "RelativePath": "api/User/{userId}/roles/add/Vendedor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.UserController",
+    "Method": "RemoveUserFromRoleAdministrador",
+    "RelativePath": "api/User/{userId}/roles/remove/Administrador",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.UserController",
+    "Method": "RemoveUserFromRoleVendedor",
+    "RelativePath": "api/User/{userId}/roles/remove/Vendedor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/User/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.UserController",
+    "Method": "GetUsersInRoleAdministrador",
+    "RelativePath": "api/User/role/Administrador",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.UserController",
+    "Method": "GetUsersInRoleVendedor",
+    "RelativePath": "api/User/role/Vendedor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/User/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "WebApi.Domain.DTO.UsuarioEdicaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "WebApi.Controllers.UsuarioController",
@@ -505,7 +705,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Usuario, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Usuario, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -531,7 +731,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[WebApi.Models.Usuario, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[WebApi.Domain.Usuario, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -551,33 +751,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Usuario, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebApi.Controllers.UsuarioController",
-    "Method": "CriarUsuario",
-    "RelativePath": "api/Usuario/CriarUsuario",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "usuarioCriacaoDto",
-        "Type": "WebApi.DTO.UsuarioCriacaoDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Usuario, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Usuario, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -597,13 +771,13 @@
     "Parameters": [
       {
         "Name": "usuarioEdicaoDto",
-        "Type": "WebApi.DTO.UsuarioEdicaoDto",
+        "Type": "WebApi.Domain.DTO.UsuarioEdicaoDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Usuario, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Usuario, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -629,7 +803,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Usuario, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Usuario, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -649,7 +823,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Models.Usuario, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "WebApi.Domain.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi.Domain.Usuario, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
