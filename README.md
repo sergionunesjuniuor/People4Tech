@@ -7,7 +7,7 @@ Principai tecnologias empregadas:
 
 EndPoints disponíveis:
 1. Auth
-  =>Destinado ao registro e login de usuários. Ao executar o projeto é realizado um Seed para a criação de um usuário administrador (usuário: administrador, senha: Admin123!, email: administrador@administrador.com.br)
+Destinado ao registro e login de usuários. Ao executar o projeto é realizado um Seed para a criação de um usuário administrador (usuário: administrador, senha: Admin123!, email: administrador@administrador.com.br)
   a. /api/Auth/register
   => Registro de usuários
   b. /api/Auth/login
